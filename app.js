@@ -55,3 +55,11 @@ function displayListings() {
 if (window.location.pathname.includes('listings.html')) {
   displayListings();
 }
+const horseListings = [];
+
+function submitListing(event) {
+  event.preventDefault();
+
+  const name = document.getElementById('name').value;
+  const sex = document.getElementById('sex').value;
+  const breed = document.getElementById('breed').value
