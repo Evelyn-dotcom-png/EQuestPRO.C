@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Create Horse Listing</title>
+  <title>Create Horse Listing - EQUEST</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Create Horse Listing</h1>
+    <h1>Create Your Horse Listing</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="create-listing.html">Create Listing</a>
@@ -48,12 +48,20 @@
       <label for="contact">Contact Information</label>
       <input type="text" id="contact" name="contact" required>
 
+      <label for="location">Location</label>
+      <select id="location" name="location" required>
+        <option value="United States">United States</option>
+        <option value="Canada">Canada</option>
+        <option value="Europe">Europe</option>
+        <option value="Australia">Australia</option>
+      </select>
+
       <button type="submit">Submit Listing</button>
     </form>
   </main>
 
   <footer>
-    <p>&copy; 2025 Horse Marketplace</p>
+    <p>&copy; 2025 EQUEST - All rights reserved.</p>
   </footer>
 
   <script src="app.js"></script>
